@@ -221,6 +221,7 @@ h1 {font-family: 'Montserrat', sans-serif;
 	color: #222;
 	margin: 0px 0px 50px;
 	text-transform:uppercase;
+	background-color: lightgrey;
 }
 
 h2 { 
@@ -994,6 +995,8 @@ border:3px double black; }
 /*-----------------------------------------------------------------------------------*/
 
 #contact { padding-top:20px; }
+
+/*h1.next-event.animated.fadeIn { opacity: 0.8 !important; }*/
 
 /*--------------------------------*/
 /*	MAP
