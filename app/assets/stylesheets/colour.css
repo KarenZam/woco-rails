@@ -1,23 +1,23 @@
-.colour {color:#D35400; } 
+.colour {color:#551A8B; } 
 .colour-title1 {color:#ffa500; } 
 
-a {color:#D35400;}
+a {color:#551A8B;}
 a:hover {color:#333;}
 
-.lines-colour {color: #D35400; }
+.lines-colour {color: #551A8B; }
 
-blockquote { border-left:4px solid #D35400!important;  }
+blockquote { border-left:4px solid #551A8B!important;  }
 
-.carousel-control.right, .carousel-control.left  { color:#D35400;}
+.carousel-control.right, .carousel-control.left  { color:#551A8B;}
 
-.pager a .typcn { color:#D35400!important;}
+.pager a .typcn { color:#551A8B!important;}
 .pager a .typcn:hover { color:#222; }
 
-.nav-tabs .active a, .nav-tabs a:hover, .nav-tabs .active  a:focus { background-color:#D35400!important;}
+.nav-tabs .active a, .nav-tabs a:hover, .nav-tabs .active  a:focus { background-color:#551A8B!important;}
 
-.list-group-item.price, .list-group-item .btn:hover, .service:hover  { background-color: #D35400!important; }
+.list-group-item.price, .list-group-item .btn:hover, .service:hover  { background-color: #551A8B!important; }
 
-::selection { background: #D35400; color: #fff; }
-::-moz-selection { background: #D35400; color: #fff; }
+::selection { background: #551A8B; color: #fff; }
+::-moz-selection { background: #551A8B; color: #fff; }
 
-.grid-loadMore:hover { color:#D35400!important; }
+.grid-loadMore:hover { color:#551A8B!important; }

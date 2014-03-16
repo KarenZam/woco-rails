@@ -163,7 +163,7 @@ HOME SLIDER & WORK SLIDER - FLEXSLIDER
 			});
 		});	
 
-	$(".ticker").airport([ "creating web sites","having fun","drinking espresso"]);
+	$(".ticker").airport([ "having fun fun fun","hacking learning sharing","hanging out toguether"]);
 
 	});
 	
@@ -182,12 +182,12 @@ stylers: [ { "saturation":1 }, { "lightness": 100 },  { "hue": "#ffffff" } ]
 },
 { featureType: "road" ,"elementType": "geometry",
 stylers: [ { "weight": 5.2 }, { "color": "#ffffff" }, { "visibility": "simplified" } ] } ,
-{ featureType: "road.local" }, { "elementType": "labels.text", "stylers": [  { "visibility": "on" }, { "color": "#777777" }, { "weight": 0.2 } ] } ,
+{ featureType: "road.local" }, { "elementType": "labels.text", "stylers": [  { "visibility": "on" }, { "color": "#777777" }, { "weight": 0.4 } ] } ,
 { featureType: "transit", "elementType": "all", stylers: [ { "visibility": "on" } ] } ,
 { featureType: 'landscape', elementType: 'all', stylers: [ { "color": "#eeeeee" }, { visibility: 'on' } ] },
 { featureType: "water", elementType: "all", stylers: [ { visibility: "off" } ] },
 { featureType: "poi", elementType: "all", stylers: [  { "color": "#dcdbdb" },{ visibility: "on" } ] },
-{ featureType: "poi" }, { "elementType": "labels.text", "stylers": [  { "visibility": "on" }, { "color": "#777777" }, { "weight": 0.2 } ] } ,
+{ featureType: "poi" }, { "elementType": "labels.text", "stylers": [  { "visibility": "on" }, { "color": "#777777" }, { "weight": 0.4 } ] } ,
 ],
 	zoom: 16,
 	scrollwheel:false,

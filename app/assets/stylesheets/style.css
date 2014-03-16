@@ -211,7 +211,7 @@ blockquote { border-left:4px solid #E84E41!important;  padding: 10px; }
 
 /**** TYPOGRAPHY ****/
 
-h1, h2, h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif; color:#222!important; }
+h1, h2, h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif; color:#551A8B!important; }
 h1 {font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 120px;
@@ -1082,7 +1082,7 @@ focus::-webkit-input-placeholder{font-family:'Cousine', sans-serif; color:transp
 /*	08: FOOTER SECTION
 /*-----------------------------------------------------------------------------------*/
 .footer {
-	background: black;
+	background: #551A8B;
 	margin: 0px auto;
     padding: 60px 0;
     text-align: center;
