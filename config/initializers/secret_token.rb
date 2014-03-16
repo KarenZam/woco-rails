@@ -1,2 +1,2 @@
-WocoRails::Application.config.secret_token = ENV['SECRET_TOKEN']
+Karenfarzam::Application.config.secret_token = ENV['SECRET_TOKEN']
 
