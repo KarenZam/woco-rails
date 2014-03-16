@@ -8,17 +8,16 @@ $ ->
     body = $('#contact-body').val()
 
     data =
-      "contact":
-        "email": email
-        "subject": subject
-        "body": body
+      "email": email
+      "subject": subject
+      "body": body
       "authenticity_token": $('input[name=authenticity_token]').val()
 
+    console.log "data"
+    console.log data
+
     $('#ajax-contact-form').hide()
-    $('.contact.error-message').hide()
-    $('.contact.success-message').hide()
     $('.contact.success-message').html("Thank you, #{email}. We&apos;ll be in touch.")
-    $('.contact.success-message').fadeIn()
 
     posting = $.ajax '/contacts',
       type: 'POST'
@@ -27,12 +26,7 @@ $ ->
       contentType: 'application/json'
 
     posting.done (data) ->
-      unless data["valid"]
-        $('#contact_email').focus()
-        $('.contact.success-message').hide()
-        $('.contact.error-message').hide()
-        $('.contact.error-message').html data["message"]
-        $('.contact.error-message').fadeIn()
+      console.log "done"
 
   $('#ajax-contact-form').on 'submit', (e) ->
     e.preventDefault()

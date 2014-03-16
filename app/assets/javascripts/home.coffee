@@ -22,20 +22,16 @@ $ ->
     $('.contact.success-message').html("Thank you, #{email}. We&apos;ll be in touch.")
     $('.contact.success-message').fadeIn()
 
-    # posting = $.ajax '/messages',
-    #   type: 'POST'
-    #   data: JSON.stringify(data)
-    #   dataType: 'json'
-    #   contentType: 'application/json'
+    posting = $.ajax '/messages',
+      type: 'POST'
+      data: JSON.stringify(data)
+      dataType: 'json'
+      contentType: 'application/json'
 
-    # posting.done (data) ->
-    #   unless data["valid"]
-    #     $('#message_email').focus()
-    #     $('.contact.success-message').hide()
-    #     $('.contact.error-message').hide()
-    #     $('.contact.error-message').html data["message"]
-    #     $('.contact.error-message').fadeIn()
+    posting.done (data) ->
+      console.log "done"
 
   $('#contact-form').on 'submit', (e) ->
     e.preventDefault()
+    console.log "test"
     sendMessage()

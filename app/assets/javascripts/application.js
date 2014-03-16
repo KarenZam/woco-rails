@@ -25,7 +25,6 @@
 //= require smooth-scroll
 //= require YTPlayer
 //= require custom.modernizr
-//= require home
 //= require_tree .
 
 $('document').ready(function(){
