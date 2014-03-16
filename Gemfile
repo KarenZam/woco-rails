@@ -14,6 +14,8 @@ gem 'jquery-rails'
 # Use unicorn as the app server
 gem 'unicorn'
 
-gem 'rails_12factor', group: :production
+group :production do
+  gem 'rails_12factor'
+end
 
 ruby '2.1.1'
