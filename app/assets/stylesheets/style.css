@@ -1467,3 +1467,20 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 .carousel-control.right { right:35%!important; }
 .carousel-control.left { left:35%!important;  }
 }
+
+.join-us {
+	font-size: 300%;
+	color: white;
+	background-color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin-bottom: 25px;
+	padding: 20px;
+	line-height: 45px;
+}
+
+.well h1 span {
+	background-color: black;
+	font-weight: 180%;
+	padding: 10px;
+}
