@@ -1437,7 +1437,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 	width:100%!important;
 }
 #menu li {float: none!important;  margin:0px auto 15px; }
-#header {background-color: rgba(255,255,255,1.0)!important;}
+#header {background-color: rgba(255,255,255,1.0)!important; display: none}
 #logo{ padding: 25px 0px 0 20px; overflow: hidden; float: left; }
 
 }
