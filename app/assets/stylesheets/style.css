@@ -985,9 +985,12 @@ border:3px double black; }
 /*-----------------------------------------------------------------------------------*/
 /*	SPONSOR
 /*-----------------------------------------------------------------------------------*/
-#sponsor-paperclip { max-width: 80%; }
+#sponsor-paperclip { 
+	max-width: 140px; 
+	margin: 10px;
+}
 
-#sponsor-paperclip-small { max-width: 20%; }
+#sponsor-paperclip-small { max-width: 70px; }
 
 /*-----------------------------------------------------------------------------------*/
 /*	07: CONTACT SECTION
@@ -1076,6 +1079,15 @@ focus::-webkit-input-placeholder{font-family:'Cousine', sans-serif; color:transp
     text-align: center;
 	font-size: 13px;
 	text-transform: uppercase;
+}
+
+.sponsor-detail {
+	margin: 15px;
+}
+
+.sponsor-detail a {
+	float: left;
+	margin: 10px;
 }
 
 /*--------------------------------*/
