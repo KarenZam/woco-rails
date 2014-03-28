@@ -54,7 +54,7 @@ a, a:visited, a:hover, a:active, a:focus, input, select, textarea { outline:none
 a, li { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 :focus, .btn:focus { outline: 0; }
 code{ color:#333; }
-img { display:block; height:auto; max-width:100%;  vertical-align:top; ms-interpolation-mode:bicubic; opacity:1.0; width: auto\9;}
+img { display:block; height:auto; width:100%;  vertical-align:top; ms-interpolation-mode:bicubic; opacity:1.0; width: auto\9;}
 iframe { border: 0; }
 .well { box-shadow:none; border:none; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; background:transparent; }
 .center { margin:0 auto; }
