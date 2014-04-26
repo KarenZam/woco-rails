@@ -1,2 +1,0 @@
-Karenfarzam::Application.config.secret_token = '1e37a77ff0e20d6e5c891ba2048c86a2e225ba5b380f51a12f6e12d6df8587e118f950d2d244e632771c8ea1e101bbddb51f60430fb7907b4158037942bd593f'
-

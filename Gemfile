@@ -16,6 +16,7 @@ gem 'unicorn'
 
 group :production do
   gem 'rails_12factor'
+  gem 'dotenv-rails'
 end
 
 ruby '2.1.1'
