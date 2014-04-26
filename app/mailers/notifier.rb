@@ -9,7 +9,6 @@ class Notifier < ActionMailer::Base
   end
 
   def contact_reply(email)
-    puts "contact reply"
     @email = email
 
     mail to: @email, subject: "[Women Who Code HK] Thank you for contacting us"
