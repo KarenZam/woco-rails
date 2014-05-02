@@ -18,8 +18,6 @@ class ContactsController < ApplicationController
         valid: false
       }
     end
-    # Notifier.contact(@email, @subject, @body).deliver  
-    # Notifier.contact_reply(@email).deliver
 
   end
   
