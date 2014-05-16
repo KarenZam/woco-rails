@@ -211,7 +211,7 @@ blockquote { border-left:4px solid #E84E41!important;  padding: 10px; }
 
 /**** TYPOGRAPHY ****/
 
-h1, h2, h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif; color:#551A8B!important; }
+h1, h2, h3,h4,h5,h6 { font-family: 'Montserrat', sans-serif; color:#00B6A3!important; }
 h1 {font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 120px;
@@ -1104,7 +1104,7 @@ focus::-webkit-input-placeholder{font-family:'Cousine', sans-serif; color:transp
 /*	08: FOOTER SECTION
 /*-----------------------------------------------------------------------------------*/
 .footer {
-	background: #551A8B;
+	background: #00B6A3;
 	margin: 0px auto;
     padding: 60px 0;
     text-align: center;
@@ -1493,7 +1493,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 }
 
 .well h1 span {
-	background-color: #551A8B;
+	background-color: #00B6A3;
 	font-weight: 180%;
 	padding: 10px;
 }
