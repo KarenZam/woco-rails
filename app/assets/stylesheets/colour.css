@@ -3,8 +3,8 @@
 
 /*551A8B*/
 
-a {color:#00B6A3;}
-a:hover {color:#333;}
+a {color:#00B6AA;}
+a:hover {color:#00B6FF;}
 
 .lines-colour {color: #00B6A3; }
 
@@ -12,7 +12,7 @@ blockquote { border-left:4px solid #00B6A3!important;  }
 
 .carousel-control.right, .carousel-control.left  { color:#00B6A3;}
 
-.pager a .typcn { color:#00B6A3!important;}
+.pager a .typcn { color:##00B6AA!important;}
 .pager a .typcn:hover { color:#222; }
 
 .nav-tabs .active a, .nav-tabs a:hover, .nav-tabs .active  a:focus { background-color:#00B6A3!important;}

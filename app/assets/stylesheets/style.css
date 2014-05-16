@@ -37,7 +37,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	line-height: 24px;
-	color: #555;
+	color: black;
 	font-weight: 400;
 	background: #FFFFFF;
 	overflow-x: hidden!important;
@@ -1497,4 +1497,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 	font-weight: 180%;
 	padding: 10px;
 }
-
