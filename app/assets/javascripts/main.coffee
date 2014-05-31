@@ -19,6 +19,7 @@ $ ->
     $('#ajax-contact-form').hide()
     $('.contact.success-message').html("Thank you, #{email}. We&apos;ll be in touch.")
 
+    
     posting = $.ajax '/contacts',
       type: 'POST'
       data: JSON.stringify(data)
