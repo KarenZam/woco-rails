@@ -174,7 +174,7 @@ HOME SLIDER & WORK SLIDER - FLEXSLIDER
 $(window).load(function(){
 	$(".google-maps").gmap3({
     marker:{     
-	address:"148 Wing Lok Street, Sheung Wan, Hong Kong",  options:{icon: "assets/marker.png"}},
+	address:"43-55 Wyndham Street, Hong Kong",  options:{icon: "assets/marker.png"}},
     map:{
       options:{
 styles: [ {
