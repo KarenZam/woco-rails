@@ -987,12 +987,16 @@ border:3px double black; }
 /*	SPONSOR
 /*-----------------------------------------------------------------------------------*/
 #sponsor-paperclip { 
-	max-width: 140px; 
+	max-width: 120px; 
 	margin: 10px;
 }
 #sponsor-ga { 
 	max-width: 80px; 
 	margin: 10px;
+}
+#sponsor-wynd {
+	max-width: 160px; 
+	margin: 10px;	
 }
 
 #sponsor-paperclip-small { max-width: 70px; }
