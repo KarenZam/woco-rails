@@ -998,6 +998,10 @@ border:3px double black; }
 	max-width: 160px; 
 	margin: 10px;	
 }
+#sponsor-cocoon {
+	max-width: 80px; 
+	margin: 10px;	
+}
 
 #sponsor-paperclip-small { max-width: 70px; }
 
