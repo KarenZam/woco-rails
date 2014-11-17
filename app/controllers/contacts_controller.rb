@@ -5,18 +5,6 @@ class ContactsController < ApplicationController
     @subject = params[ :subject ]
     @body = params[ :body ]
 
-    if verify_recaptcha
-      render json: {
-        contact: "There has been an error",
-        valid: false
-      }
-      puts "////////////"
-      puts "ERROR"
-      puts "////////////"
-      puts "////////////"
-      return
-    end
-
     if Notifier.contact(@email, @subject, @body).deliver
       Notifier.contact_reply(@email).deliver
       render json: {
