@@ -81,7 +81,7 @@ Karenfarzam::Application.configure do
   Recaptcha.configure do |config|
     config.public_key  = ENV["RECAPTCHA_PUBLIC_KEY"]
     config.private_key = ENV["RECAPTCHA_PRIVATE_KEY"]
-    config.proxy = 'http://localhost:3000'
+    config.proxy = 'http://www.womenwhocodehk.com'
   end
 
   config.action_mailer.smtp_settings = {
@@ -91,6 +91,6 @@ Karenfarzam::Application.configure do
       :user_name => ENV["MANDRILL_USERNAME"],
       :password  => ENV["MANDRILL_PASSWORD"], # SMTP password is any valid API key
       :authentication => 'login', # Mandrill supports 'plain' or 'login'
-      :domain => 'womenwhocodehk.com', # your domain to identify your server when connecting
+      :domain => 'c', # your domain to identify your server when connecting
     }
 end
