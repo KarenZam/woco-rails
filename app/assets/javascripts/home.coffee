@@ -6,9 +6,6 @@ $ ->
     email = $('#message_email').val()
     subject = $('#message_subject').val()
     body = $('#message_body').val()
-
-    console.log email
-    console.log "yo"
     
     data =
       "email": email

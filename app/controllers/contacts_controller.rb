@@ -5,10 +5,8 @@ class ContactsController < ApplicationController
     @subject = params[ :subject ]
     @body = params[ :body ]
 
-    # if verify_recaptcha
-    #   puts "/////hello"
-    #   puts "/////hello"
-    # end
+    puts verify_recaptcha
+
 
     if Notifier.contact(@email, @subject, @body).deliver
       Notifier.contact_reply(@email).deliver

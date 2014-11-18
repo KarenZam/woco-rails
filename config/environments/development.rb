@@ -25,6 +25,13 @@ Karenfarzam::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
+  Recaptcha.configure do |config|
+    config.public_key  = ENV["RECAPTCHA_PUBLIC_KEY"]
+    config.private_key = ENV["RECAPTCHA_PRIVATE_KEY"]
+    config.proxy = 'http://localhost:3000'
+  end
+
+
   config.action_mailer.smtp_settings = {
       :address   => "smtp.mandrillapp.com",
       :port      => 25, # ports 587 and 2525 are also supported with STARTTLS
