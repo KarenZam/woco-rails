@@ -479,7 +479,9 @@ p { margin-bottom: 20px; }
 /*	MILESTONES
 /*--------------------------------*/
  #about .well{ 
-	background: url(../images/milestones.jpg) 50% 0% fixed no-repeat;
+	background: url(../images/test.jpg) 50% 0% fixed no-repeat;
+	/* url(../images/work_bg.jpg) */
+	/*../images/test.jpg*/
 	padding: 90px 0 120px;
 	background-position: top center;
 	-webkit-background-size: cover!important; 
@@ -494,10 +496,9 @@ p { margin-bottom: 20px; }
 	font-weight: 400!important;
 	line-height: 60px;
 	letter-spacing: 5px;
-	color: #bbb!important;
 	text-align: center;
 	text-transform: uppercase;
-	
+	background-color: rgba(255,255,255,0.3);
 }
 .counter { 
 	padding: 10px 0 0;
