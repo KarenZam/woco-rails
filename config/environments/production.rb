@@ -84,13 +84,13 @@ Karenfarzam::Application.configure do
     config.proxy = 'http://www.womenwhocodehk.com'
   end
 
-  config.action_mailer.smtp_settings = {
-      :address   => "smtp.mandrillapp.com",
-      :port      => 25, # ports 587 and 2525 are also supported with STARTTLS
-      :enable_starttls_auto => true, # detects and uses STARTTLS
-      :user_name => ENV["MANDRILL_USERNAME"],
-      :password  => ENV["MANDRILL_PASSWORD"], # SMTP password is any valid API key
-      :authentication => 'login', # Mandrill supports 'plain' or 'login'
-      :domain => 'c', # your domain to identify your server when connecting
-    }
+  # config.action_mailer.smtp_settings = {
+  #     :address   => "smtp.mandrillapp.com",
+  #     :port      => 25, # ports 587 and 2525 are also supported with STARTTLS
+  #     :enable_starttls_auto => true, # detects and uses STARTTLS
+  #     :user_name => ENV["MANDRILL_USERNAME"],
+  #     :password  => ENV["MANDRILL_PASSWORD"], # SMTP password is any valid API key
+  #     :authentication => 'login', # Mandrill supports 'plain' or 'login'
+  #     :domain => 'c', # your domain to identify your server when connecting
+  #   }
 end
