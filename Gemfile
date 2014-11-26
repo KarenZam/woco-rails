@@ -14,8 +14,6 @@ gem 'jquery-rails'
 # Use unicorn as the app server
 gem 'unicorn'
 
-gem "recaptcha", :require => "recaptcha/rails"
-
 group :production do
   gem 'rails_12factor'
   gem 'dotenv-rails'

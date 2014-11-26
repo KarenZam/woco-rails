@@ -78,7 +78,6 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.13.0)
     rake (10.3.2)
-    recaptcha (0.3.6)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -110,6 +109,5 @@ DEPENDENCIES
   jquery-rails
   rails
   rails_12factor
-  recaptcha
   uglifier
   unicorn
