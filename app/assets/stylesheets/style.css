@@ -104,7 +104,7 @@ a {
 .btn {
 	padding: 20px 25px;
 	background:transparent; 
-	border:3px double #222;
+	border:1px solid #222;
 	cursor: pointer;
 	font-family: 'Montserrat';
 	font-size: 12px;
@@ -146,8 +146,8 @@ ul {list-style-type: square; padding:0 0 ; margin:0 0;}
 li{padding:0 0px 0 5px ; margin:0 0px 0px 14px;}
 
 /**** HR ****/
-.hr { width: 20%; border-top:3px double black; margin:20px auto 25px; }
-.hr2{ width: 10%; border-top:3px double black; margin:25px auto 25px; }
+.hr { width: 20%; border-top:1px solid black; margin:20px auto 25px; }
+.hr2{ width: 10%; border-top:1px solid black; margin:25px auto 25px; }
 
 /**** BLOCKQUOTE ****/
 blockquote { border-left:4px solid #E84E41!important;  padding: 10px; }
@@ -423,7 +423,7 @@ p { margin-bottom: 20px; }
 	cursor: pointer;
 	top: 45px;
 	background-color: #fff;
-	border:5px double #222;
+	border:5px solid #222;
 	transform: rotate(45deg);
 	-ms-transform: rotate(45deg); 
 	-webkit-transform: rotate(45deg);
@@ -659,7 +659,7 @@ p { margin-bottom: 20px; }
 .carousel-control.right { right:40%; left:auto; bottom:0%; background-image:none!important; filter:none!important; text-shadow:none;}
 .carousel-control.left { left:40%; right:auto; bottom:0%; background-image:none!important; filter none!important; text-shadow:none; }
 
-.border { border:3px double #222; }
+img.border { border: none; }
 
 /*--------------------------------*/
 /*	PARALLAX WORK QUOTE 
@@ -987,7 +987,13 @@ border:3px double black; }
 /*-----------------------------------------------------------------------------------*/
 /*	SPONSOR
 /*-----------------------------------------------------------------------------------*/
-#sponsor-paperclip { 
+.sponsor-div img {
+	margin: 5px;
+	max-height: 100px;
+	max-width: 100px;
+}
+
+/*#sponsor-paperclip { 
 	max-width: 120px; 
 	margin: 10px;
 }
@@ -1004,7 +1010,7 @@ border:3px double black; }
 	margin: 10px;	
 }
 
-#sponsor-paperclip-small { max-width: 70px; }
+#sponsor-paperclip-small { max-width: 70px; }*/
 
 /*-----------------------------------------------------------------------------------*/
 /*	07: CONTACT SECTION
@@ -1050,7 +1056,7 @@ focus::-webkit-input-placeholder{font-family:'Cousine', sans-serif; color:transp
 
 #ajax-contact-form input.btn{
 	padding: 15px 25px;
-	border: 3px double #222;
+	border: 1px solid #222;
 	background-color: transparent;
 	cursor: pointer;
 	font-family: 'Montserrat';
@@ -1519,18 +1525,19 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 	list-style-type: none;
 }
 #talent-unleashed, #technode, #en-asie, #startuhk { 
-	opacity: 0.6;
     background-color: white;
-    border: solid 1px black;
     float: left;
     padding: 10px;
     margin: 20px;
-}
-#talent-unleashed:hover, #technode:hover, #en-asie:hover, #startuhk:hover { 
-	opacity: 1.0;
 }
 
 #talent-unleashed { max-width: 180px; }
 #technode { max-width: 180px; }
 #en-asie  { max-width: 180px; }
 #startuhk { max-width: 80px; }
+
+
+/**/
+
+
+
