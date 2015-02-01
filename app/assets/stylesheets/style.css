@@ -1524,9 +1524,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 .press ul li { 
 	list-style-type: none;
 }
-#talent-unleashed, #technode, #en-asie, #startuhk { 
+#talent-unleashed, #technode, #en-asie, #startuhk, #pearl { 
     background-color: white;
-    float: left;
+    float: right;
     padding: 10px;
     margin: 20px;
 }
@@ -1535,6 +1535,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 #technode { max-width: 180px; }
 #en-asie  { max-width: 180px; }
 #startuhk { max-width: 80px; }
+#pearl { max-width: 180px; }
 
 
 /**/
