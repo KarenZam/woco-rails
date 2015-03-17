@@ -479,7 +479,7 @@ p { margin-bottom: 20px; }
 /*	MILESTONES
 /*--------------------------------*/
  #about .well{ 
-	background: url(../images/test.jpg) 50% 0% fixed no-repeat;
+	background: url(../images/about.jpg) 50% 0% fixed no-repeat;
 	/* url(../images/work_bg.jpg) */
 	/*../images/test.jpg*/
 	padding: 90px 0 120px;
@@ -498,7 +498,7 @@ p { margin-bottom: 20px; }
 	letter-spacing: 5px;
 	text-align: center;
 	text-transform: uppercase;
-	background-color: rgba(255,255,255,0.3);
+	background-color: rgba(255,255,255,0.5);
 }
 .counter { 
 	padding: 10px 0 0;
